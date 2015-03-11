@@ -1,0 +1,12 @@
+kernel=zImage
+ramdisk=ramdisk
+dt=dt.img
+page_size=2048
+kernel_size=5893856
+ramdisk_size=9831449
+dtb_size=512000
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=0x02008000
+tags_offset=0x01e00000
+cmd_line="console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31 echi-hcd.park=3"
